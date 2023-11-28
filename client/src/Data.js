@@ -23,6 +23,7 @@ function Data() {
         <table>
           <thead>
             <tr>
+              <th>ID</th>
               <th>Name</th>
               <th>Currency</th>
               <th>Market Sector</th>
@@ -63,6 +64,7 @@ function Data() {
           <tbody>
             {data.map((item) => (
               <tr key={item.ID_BB_GLOBAL}>
+                <td>{item.id}</td>
                 <td>{item.NAME}</td>
                 <td>{item.CRNCY}</td>
                 <td>{item.MARKET_SECTOR}</td>
